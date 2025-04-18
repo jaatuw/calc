@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Document</title>
+</head>
+<body>
+        <main>
+            <div class="container">
+                <div class="visor">0</div>
+                <div class="botoes">
+                    <button class="teclas" id="op1" onclick="clearall()">AC</button>
+                    <button class="teclas" id="op1" onclick="signed()">+/-</button>
+                    <button class="teclas" id="op1" onclick="modul()">%</button>
+                    <button class="teclas" id="op2" onclick="div()">/</button>
+                    <button class="teclas" id="num" onclick="number(7)">7</button>
+                    <button class="teclas" id="num" onclick="number(8)">8</button>
+                    <button class="teclas" id="num" onclick="number(9)">9</button>
+                    <button class="teclas" id="op2" onclick="mult()">*</button>
+                    <button class="teclas" id="num" onclick="number(4)">4</button>
+                    <button class="teclas" id="num" onclick="number(5)">5</button>
+                    <button class="teclas" id="num" onclick="number(6)">6</button>
+                    <button class="teclas" id="op2" onclick="sub()">-</button>
+                    <button class="teclas" id="num" onclick="number(1)">1</button>
+                    <button class="teclas" id="num" onclick="number(2)">2</button>
+                    <button class="teclas" id="num" onclick="number(3)">3</button>
+                    <button class="teclas" id="op2" onclick="soma()">+</button>
+                    <button class="teclas" id="num" onclick="deleter()">C</button>
+                    <button class="teclas" id="num" onclick="number(0)">0</button>
+                    <button class="teclas" id="num" onclick="dec()">.</button>
+                    <button class="teclas" id="igual" onclick="operate('+',5,5)">=</button>
+                </div>
+            </div>
+        </main>
+        <script src="calc.js"></script>
+</body>
+</html> 
+
