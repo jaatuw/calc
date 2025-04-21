@@ -18,7 +18,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    height: 600px;
+    height: 650px;
     width: 400px;
     background-color: rgb(43, 42, 42);
     border-radius: 30px;
@@ -36,12 +36,14 @@ main {
     align-items: last baseline;
     justify-content: flex-end;
     width: 350px;
-    height: 100px;
+    height: 80px;
     font-size: 4em;
     font-weight: bold;
     font-family: monospace;
     border-radius: 15px; 
 }
+
+
 
 .botoes {
     display: grid;
